@@ -5,7 +5,7 @@
       <div class="container-fuild ContactUs-container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-6">
-           海南跨境电商集团有限公司 
+           海南龙利跨境电商集团有限公司 
             <br>
             <form class="form-horizontal" role="form">
               <div class="form-group">

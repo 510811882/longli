@@ -32,7 +32,16 @@ export default new Router({
           children: [
             {
               path: '/subsidiaries',
-              redirect: '/subsidiaries/bozhoulongli'
+              redirect: '/subsidiaries/hainandianshang'
+            },
+            {
+              path: '/subsidiaries/hainandianshang',
+              name: 'subsidiaries',
+              component: resolve => require(['@/view/subsidiaries_hainandianshang'], resolve),
+              meta: {
+                title: '海南自贸区龙利电子商务责任有限公司'
+              }
+              
             },
             {
               path: '/subsidiaries/bozhoulongli',
@@ -40,14 +49,6 @@ export default new Router({
               component: resolve => require(['@/view/subsidiaries_bozhoulongli'], resolve),
               meta: {
                 title: '亳州龙利回收资源有限责任公司'
-              }
-            },
-            {
-              path: '/subsidiaries/hainandianshang',
-              name: 'subsidiaries',
-              component: resolve => require(['@/view/subsidiaries_hainandianshang'], resolve),
-              meta: {
-                title: '海南贸易网'
               }
             },
             // {
@@ -170,7 +171,7 @@ export default new Router({
       ]
     }
   ],
-  scrollBehavior(to, from,savedPosition) {
-    return { x: 0, y: 0 }
-  }
+//  scrollBehavior(to, from,savedPosition) {
+  //  return { x: 0, y: 0 }
+  //}
 })
