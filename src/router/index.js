@@ -51,14 +51,14 @@ export default new Router({
                 title: '亳州龙利回收资源有限责任公司'
               }
             },
-            // {
-            //   path: '/subsidiaries/longxiang',
-            //   name: 'subsidiaries',
-            //   component: resolve => require(['@/view/subsidiaries_longxiang'], resolve),
-            //   meta: {
-            //     title: '亳州龙翔'
-            //   }
-            // },
+             {
+               path: '/subsidiaries/wuhu',
+              name: 'subsidiaries',
+              component: resolve => require(['@/view/subsidiaries_wuhu'], resolve),
+              meta: {
+                title: '芜湖分公司'
+              }
+             }
             // {
             //   path: '/subsidiaries/hainanlongliyuan',
             //   name: 'subsidiaries',

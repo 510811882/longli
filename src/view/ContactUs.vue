@@ -26,13 +26,15 @@
                   0898-66828131
                 </div>
               </div>
+              
               <div class="form-group">
                 <label for="content" class="col-sm-2 control-label">微信</label>
                 <div class="col-sm-10">
                   1404366753
                 </div>
-              </div>
+              </div><!--
             </form>
+            
            亳州龙利再生资源回收有限公司
             <br>
             <form class="form-horizontal" role="form">
@@ -60,6 +62,7 @@
                   1404366753
                 </div>
               </div>
+              -->
             </form>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-6">

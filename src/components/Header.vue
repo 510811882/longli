@@ -106,10 +106,10 @@ export default {
               name: "亳州回收资源有限责任公司",
               path: "/subsidiaries/bozhoulongli"
             },
-            // {
-            //   name: "亳州龙翔木业",
-            //   path: "/subsidiaries/longxiang"
-            // },
+             {
+               name: "芜湖分公司",
+               path: "/subsidiaries/wuhu"
+            }
             //  {
             //   name: "海南隆利源国际贸易有限公司",
             //   path: "/subsidiaries/hainanlongliyuan"
